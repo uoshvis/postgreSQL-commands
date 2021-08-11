@@ -1,2 +1,2 @@
 # postgreSQL-commands
-Collection of PostgreSQL commands. Linux OS.
+Collection of PostgreSQL commands.
