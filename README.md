@@ -1,2 +1,3 @@
 # postgreSQL-commands
-Collection of PostgreSQL commands.
+
+[Collection of PostgreSQL commands.](osgresql-commands.MD)
