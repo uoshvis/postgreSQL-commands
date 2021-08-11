@@ -144,7 +144,7 @@ ORDER BY role_name desc;
 
 #### Connect with role
 
-`\c francs francs`
+`\c <dbname> <rolename>`
 
 ### disconnect from db
 
