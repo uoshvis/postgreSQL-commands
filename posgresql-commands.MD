@@ -67,7 +67,9 @@ psql=# ALTER USER <username> WITH ENCRYPTED PASSWORD '<password>';
 
 `psql=# GRANT ALL PRIVILEGES ON DATABASE <dbname> TO <username> ;
 `
+#### Grant superuser rights
 
+`ALTER ROLE <user_name> SUPERUSER;`
 
 **Via psql:**
 
@@ -77,6 +79,8 @@ CREATE USER youruser WITH ENCRYPTED PASSWORD 'yourpass';
 GRANT ALL PRIVILEGES ON DATABASE yourdbname TO youruser;
 
 ```
+#### Create superuser
+`createuser --superuser <user_name>`
 
 ### Postgres login
 
