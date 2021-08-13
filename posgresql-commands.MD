@@ -73,7 +73,7 @@ psql=# ALTER USER <username> WITH ENCRYPTED PASSWORD '<password>';
 
 #### Revoking superuser rights
 
-`alter role user_name nosuperuser;`
+`ALTER ROLE user_name NOSUPERUSER;`
 
 **Via psql:**
 
