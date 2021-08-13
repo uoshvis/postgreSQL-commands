@@ -52,6 +52,10 @@ Default user: **postgres** has superadmin access to PostgreSQL
 
 `sudo -u postgres createdb <dbname>`
 
+#### Delete Database
+
+`DROP DATABASE [IF EXISTS] database_name;`
+
 #### Giving the user a password
 
 ```
