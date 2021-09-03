@@ -48,6 +48,18 @@ Default user: **postgres** has superadmin access to PostgreSQL
 
 `sudo -u postgres psql`
 
+Getting help:
+
+`sudo -u postgres psql --help`
+
+####Create password for admin 
+
+`sudo passwd postgres`
+
+#### Login as admin
+
+`su posgres`
+
 #### Create Database
 
 `sudo -u postgres createdb <dbname>`
@@ -140,7 +152,10 @@ ORDER BY role_name desc;
 `
 ### Connect to db
 
+`sudo -u postgres psql -h localhost -p 5432 -U <user> <dbname>`
+
 `\c <databasename>`
+
 
 #### Connect with role
 
@@ -154,3 +169,16 @@ ORDER BY role_name desc;
 ### Security
 
 [postgresql security](https://www.enterprisedb.com/blog/how-to-secure-postgresql-security-hardening-best-practices-checklist-tips-encryption-authentication-vulnerabilities)
+
+
+### GUI
+
+pgAdmin
+
+### Quit
+
+`\q`
+
+### psql Help
+
+`\?`

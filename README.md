@@ -1,3 +1,5 @@
 # postgreSQL-commands
 
-[Collection of PostgreSQL commands.](posgresql-commands.MD)
+[Collection of PostgreSQL commands.](psql-commands.MD)
+
+[SQL Basics](sql-basics.MD)
