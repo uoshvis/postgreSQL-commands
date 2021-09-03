@@ -64,6 +64,10 @@ Getting help:
 
 `sudo -u postgres createdb <dbname>`
 
+#### Delete Database
+
+`DROP DATABASE [IF EXISTS] database_name;`
+
 #### Giving the user a password
 
 ```
@@ -75,7 +79,13 @@ psql=# ALTER USER <username> WITH ENCRYPTED PASSWORD '<password>';
 
 `psql=# GRANT ALL PRIVILEGES ON DATABASE <dbname> TO <username> ;
 `
+#### Grant superuser rights
 
+`ALTER ROLE <user_name> SUPERUSER;`
+
+#### Revoking superuser rights
+
+`ALTER ROLE user_name NOSUPERUSER;`
 
 **Via psql:**
 
